@@ -231,7 +231,7 @@ a{
   width:1000px;
   margin: 0 106px;
 }
-.video .link :hover{
+#main .video .link :hover{
   color:white;
 }
 
