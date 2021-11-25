@@ -21,6 +21,43 @@ body{
   background-color: #000;
 }
 
+.loading_bg{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left:0;
+  z-index: 1000;
+  opacity: 1;
+  background: #000;
+  transform: translate(0,0);
+}
+
+.opening img{
+  transition:all .7s ease-out;
+  clip-path:inset(0 100% 0 0);
+}
+
+.opening > div{
+  font-family: 'Libre Baskerville',serif;
+  font-weight: 400;
+  letter-spacing: .3em;
+  position: relative;
+  filter: blur(0);
+  opacity: 1;
+}
+
+.opening{
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1100;
+  width:100%;
+  margin-top: -5vh;
+}
+
 #gHeader .hBox{
   margin:0 auto;
   padding;3px 24px 5px;
